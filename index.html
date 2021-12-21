@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pokedex</title>
+    <link
+      rel="shortcut icon"
+      href="./images/pokeball-button.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./pokedex.js" defer></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <img  class="img-title" src="./images/pokemon-title.png" alt="Pokemon">
+      <h1>Your little Pokedex</h1>
+      <div id="inputSection">
+        <input
+          type="text"
+          class="searchInput"
+          placeholder="Introduce el pokemon"
+        />
+        <img
+          class="imgSearch"
+          src="./images/pokeball-button.png"
+          alt="boton de busqueda"
+        />
+      </div>
+      <div id="littlePokedex"></div>
+      <ol id="pokedex"></ol>
+    </div>
+  </body>
+</html>
