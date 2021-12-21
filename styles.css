@@ -31,8 +31,8 @@ h1 {
   font-size: 56px;
   max-width: 100%;
   margin: 100px 0px;
-  color: #d7b01f;
-  border-bottom: 5px solid #d7b01f;
+  color: #ffcc00;
+  border-bottom: 5px solid #ffcc00;
 }
 #inputSection {
   width: 40%;
@@ -52,7 +52,7 @@ h1 {
   color: #222;
   text-align: center;
   border-radius: 5px;
-  border: 10px solid #d7b01f;
+  border: 10px solid #0b285f;
   background-image: url(./images/background_card3.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -65,19 +65,23 @@ h1 {
 .card-title {
   text-transform: uppercase;
   font-size: 24px;
-  margin-bottom: 0px;
+  margin-bottom: 25px;
   padding-bottom: 10px;
   margin-top: 5px;
   padding: 20px 20px;
+  width: 100%;
+  background-color:#ffcc00;
+  border-radius: 5px;
 }
 .card-subtitle {
   font-size: 13px;
   color: #222;
   margin-top: 5px;
-  border: 2px solid #d7b01f;
+  border: 2px solid #ffcc00;
   padding: 5px 50px;
   margin-top: 5px;
-  background-color: #c3a231;
+  background-color: #ffcc00;
+  border-radius: 5px;
 }
 .imgSearch {
   height: 100px;
@@ -96,13 +100,14 @@ h1 {
   background-size: cover;
   height: 200px;
   width: 300px;
-  border: 3px solid #c3a231;
-  border-bottom: 7px solid #c3a231;
+  border: 3px solid #ffcc00;
+  border-bottom: 7px solid #ffcc00;
   -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
     5px 5px 15px 5px rgba(0, 0, 0, 0);
   box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
     5px 5px 15px 5px rgba(0, 0, 0, 0);
   margin-bottom: 15px;
+  border-radius: 10px;
 }
 #pokedex {
   display: flex;
